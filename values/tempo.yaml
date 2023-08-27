@@ -1,4 +1,4 @@
 tempo:
-  enabled: true
+  enabled: false
   ingress:
     gateway: "admin"

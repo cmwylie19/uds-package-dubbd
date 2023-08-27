@@ -1,5 +1,5 @@
 promtail:
-  enabled: true
+  enabled: false
   values:
     resources:
       limits:

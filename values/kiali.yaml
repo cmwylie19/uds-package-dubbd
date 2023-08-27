@@ -1,5 +1,5 @@
 kiali:
-  enabled: true
+  enabled: false
   ingress:
     gateway: "admin"
   values:

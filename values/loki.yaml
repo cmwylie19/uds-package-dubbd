@@ -8,13 +8,13 @@ loki:
     # Values for Scalable strategy
     write:
       autoscaling:
-        enabled: true
+        enabled: false
         minReplicas: 1
         maxReplicas: 3
         targetCPUUtilizationPercentage: 80
     read:
       autoscaling:
-        enabled: true
+        enabled: false
         minReplicas: 1
         maxReplicas: 3
         targetCPUUtilizationPercentage: 80
@@ -27,7 +27,7 @@ loki:
           cpu: 100m
           memory: 256Mi
       autoscaling:
-        enabled: true
+        enabled: false
         minReplicas: 1
         maxReplicas: 3
         targetCPUUtilizationPercentage: 80
